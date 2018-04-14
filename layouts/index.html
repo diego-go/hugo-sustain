@@ -1,0 +1,20 @@
+{{ partial "head" . }}
+  <body>
+    <div id="wrap">
+      {{ partial "header" . }}
+      <section id="about">
+        <div class="container">
+        <div class="avatar">
+          <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Responsive image">
+        </div>
+        <h3>Soy <strong>{{ .Site.Params.author }}</strong>, estudiante de Matemáticas Aplicadas y Computación en la FES Acatlán.</h3>
+        <h3>Me gusta la computación y las matemáticas.</h3>
+        <h3><a href="{{ .Site.BaseURL }}projects/">Aquí</a> puedes ver algunos de los proyectos que he hecho.</h3>
+        <h3>Contáctame en <a href="http://twitter.com/{{ .Site.Params.Social.Twitter }}">@{{ .Site.Params.Social.Twitter }}</a> o por <a href="mailto:{{ .Site.Params.Social.Email }}">correo</a>.</h3>
+        {{ partial "social.html" . }}
+        </div>
+      </section>
+    </div>
+    {{ partial "footer" . }}
+  </body>
+</html>
