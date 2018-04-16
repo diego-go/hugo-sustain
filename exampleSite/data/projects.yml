@@ -1,4 +1,4 @@
-name: Projects
+name: Proyectos
 source:
   - icon: fa fa-github
     description: Escribir algo aquí
@@ -11,3 +11,6 @@ source:
 
   - icon: fa fa-globe
     description: Y también por acá
+
+  - icon: fa fa-globe
+    description: Y también por acá 2
