@@ -1,5 +1,5 @@
 baseurl = "https://example.com/"
-languageCode = "en-US"
+languageCode = "es-MX"
 title = "Título de la página"
 theme = "hugo-sustain"
 
@@ -23,13 +23,13 @@ theme = "hugo-sustain"
   Stackoverflow = "username"
 
 ## Main Menu
+#[[menu.main]]
+#  name = "blog"
+#  weight = 100
+#  identifier = "blog"
+#  url = "/blog/"
 [[menu.main]]
-  name = "blog"
-  weight = 100
-  identifier = "blog"
-  url = "/blog/"
-[[menu.main]]
-  name = "projects"
+  name = "proyectos"
   identifier = "projects"
   weight = 200
   url = "/projects/"
